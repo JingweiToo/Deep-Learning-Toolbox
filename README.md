@@ -1,4 +1,4 @@
-# Deep Learning Toolbox
+# Jx-DLT : Deep Learning Toolbox
 
 ---
 > "Toward Talent Scientist: Sharing and Learning Together"
