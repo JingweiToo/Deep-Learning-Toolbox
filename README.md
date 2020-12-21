@@ -21,7 +21,7 @@
   + *kfold*     : number of folds in *k*-fold cross-validation
   + *LR*        : learning rate
   + *nB*        : number of mini batch
-  + *MaxEpochs* : maximum number of Epochs
+  + *MaxEpochs* : maximum number of epochs
   + *FC*        : number of fully connect layer ( number of classes )
   + *nC*        : number of convolutional layer ( up to 3 )
   + *nF1*       : number of filter in *1st* convolutional layer
