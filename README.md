@@ -18,7 +18,7 @@
 * *imgs*    : feature vector ( height *x* width *x* channel *x* Instances )
 * *label*   : label vector ( Instances *x* 1 )
 * *opts*    : parameter settings  
-  + *kfold*     : number of *k* in *k*-fold cross-validation
+  + *kfold*     : number of folds in *k*-fold cross-validation
   + *LR*        : learning rate
   + *nB*        : number of mini batch
   + *MaxEpochs* : maximum number of Epochs
