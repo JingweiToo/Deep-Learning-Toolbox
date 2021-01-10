@@ -1,5 +1,9 @@
 # Jx-DLT : Deep Learning Toolbox
 
+[![View Deep Learning Toolbox on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/71546-deep-learning-toolbox)
+[![License](https://img.shields.io/badge/license-BSD_3-yellow.svg)](https://github.com/JingweiToo/Deep-Learning-Toolbox/blob/master/LICENSE)
+[![GitHub release](https://img.shields.io/badge/release-1.1-green.svg)](https://github.com/JingweiToo/Deep-Learning-Toolbox)
+
 ---
 > "Toward Talent Scientist: Sharing and Learning Together"
 >  --- [Jingwei Too](https://jingweitoo.wordpress.com/)
@@ -11,32 +15,32 @@
 
 ## Introduction
 * This toolbox contains deep learning algorithm - Convolution neural network ( CNN ) 
-* The < Main.m file > shows examples of how to use CNN programs with the benchmark data set 
+* The `Main` file shows examples of how to use CNN programs with the benchmark data set 
 
 
 ## Input
-* *imgs*    : feature vector ( height *x* width *x* channel *x* Instances )
-* *label*   : label vector ( Instances *x* 1 )
-* *opts*    : parameter settings  
-  + *kfold*     : number of folds in *k*-fold cross-validation
-  + *LR*        : learning rate
-  + *nB*        : number of mini batch
-  + *MaxEpochs* : maximum number of epochs
-  + *FC*        : number of fully connect layer ( number of classes )
-  + *nC*        : number of convolutional layer ( up to 3 )
-  + *nF1*       : number of filter in *1st* convolutional layer
-  + *sF1*       : size of filter in *1st* convolutional layer
-  + *nF2*       : number of filter in *2nd* convolutional layer
-  + *sF2*       : size of filter in *2nd* convolutional layer
-  + *nF3*       : number of filter in *3rd* convolutional layer
-  + *sF3*       : size of filter in *3rd* convolutional layer
+* *`imgs`*    : feature vector ( height *x* width *x* channel *x* Instances )
+* *`label`*   : label vector ( Instances *x* 1 )
+* *`opts`*    : parameter settings  
+  + *`kfold`*     : number of folds in *k*-fold cross-validation
+  + *`LR`*        : learning rate
+  + *`nB`*        : number of mini batch
+  + *`MaxEpochs`* : maximum number of epochs
+  + *`FC`*        : number of fully connect layer ( number of classes )
+  + *`nC`*        : number of convolutional layer ( up to 3 )
+  + *`nF1`*       : number of filter in *1st* convolutional layer
+  + *`sF1`*       : size of filter in *1st* convolutional layer
+  + *`nF2`*       : number of filter in *2nd* convolutional layer
+  + *`sF2`*       : size of filter in *2nd* convolutional layer
+  + *`nF3`*       : number of filter in *3rd* convolutional layer
+  + *`sF3`*       : size of filter in *3rd* convolutional layer
 
 
 ## Output
-* *CNN* : Deep learning model ( It contains several results )  
-  + *acc* : overall accuracy 
-  + *con* : confusion matrix
-  + *t*   : computational time (s)
+* *`CNN`* : Deep learning model ( It contains several results )  
+  + *`acc`* : overall accuracy 
+  + *`con`* : confusion matrix
+  + *`t`*   : computational time (s)
   
 
 ### Example 1 : Convolutional Neural Network ( CNN ) with single convolutional layer
